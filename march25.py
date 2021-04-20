@@ -51,5 +51,5 @@ except:
 	with open('razos.json', 'w') as file:
 		z = {"Miyagi":"It’s time to use my colors, in my head"}
 
-		x = json.dump(z)
+		x = json.dump(z)\
 

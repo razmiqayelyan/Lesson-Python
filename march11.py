@@ -35,45 +35,45 @@
 # 	return x
 # z = int(input('Hello: '))
 # print(fact(z))
-import random 
+# import random 
 
-d = []
-x = ('♣','♦','♥','♠')
-y = ('6','7','8','9','10','valet','dama','karol','tuz')
-for i in x:
-	for z in y:
-		res = i + z
-		d.append(res)
-random.shuffle(d)
+# d = []
+# x = ('♣','♦','♥','♠')
+# y = ('6','7','8','9','10','valet','dama','karol','tuz')
+# for i in x:
+# 	for z in y:
+# 		res = i + z
+# 		d.append(res)
+# random.shuffle(d)
 
-user_1 = []
-user_2 = []
-xoz = []
-for i in range(6):
-	c = d.pop()
-	user_1.append(c)
-for i in range(6):
-	c = d.pop()
-	user_2.append(c)
+# user_1 = []
+# user_2 = []
+# xoz = []
+# for i in range(6):
+# 	c = d.pop()
+# 	user_1.append(c)
+# for i in range(6):
+# 	c = d.pop()
+# 	user_2.append(c)
+# # print(user_1)
+# # print(user_2)
+# # print(d) #kalodic dusa eke pop aracnery
+
+# c = d.pop()
+# xoz.append(c)
+# # print(xoz)
+# tal = input('Do you want take this card? y/n ').lower()
+# if tal == 'y':
+# 	user_1.append(xoz)
+# 	for i in range(2):
+# 		c = d.pop()
+# 		user_1.append(c)
+# else:
+# 	user_2.append(xoz)
+# 	for i in range(2):
+# 		c = d.pop()
+# 		user_2.append(c)
 # print(user_1)
 # print(user_2)
-# print(d) #kalodic dusa eke pop aracnery
-
-c = d.pop()
-xoz.append(c)
-# print(xoz)
-tal = input('Do you want take this card? y/n ').lower()
-if tal == 'y':
-	user_1.append(xoz)
-	for i in range(2):
-		c = d.pop()
-		user_1.append(c)
-else:
-	user_2.append(xoz)
-	for i in range(2):
-		c = d.pop()
-		user_2.append(c)
-print(user_1)
-print(user_2)
 
 
